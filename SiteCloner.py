@@ -26,8 +26,8 @@ def main():
 	else:
 		pathDivider = "/"
 
-	urlToClone  = input("Enter full URL to clone: ")
-	projectName = input("Enter a project name: ")
+	urlToClone  = input("https://sh1mmer.com: ")
+	projectName = input("sh1mmer_clone: ")
 	saveToPath  = os.getcwd() + pathDivider + projectName
 
 	siteCloner = SiteCloner()
